@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>project-name</title>
+    <script src="./build.js"></script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <a-scene>
+        <a-assets></a-assets>
+        <a-entity my-component geometry="primitive: box" material="shader:my-shader" position="0 1 -3"></a-entity>
+        <a-entity geometry="primitive: box" material="color: gold" vive-controls="hand: left" my-controller></a-entity>
+        <a-entity geometry="primitive: box" material="color: blue" vive-controls="hand: right" my-controller></a-entity>
+    </a-scene>
+</body>
+
+</html>
+
